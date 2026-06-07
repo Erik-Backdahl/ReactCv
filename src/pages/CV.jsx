@@ -12,7 +12,7 @@ export default function CV() {
           <ul className="cv-list">
             {education.map((item) => (
               <li key={item.id}>
-                <img src={item.logo} alt={`${item.institution} logo`} />
+                <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={`${item.institution} logo`} />
                 <div>
                   <strong>{item.institution}</strong>
                   <p>{item.program}</p>
@@ -26,7 +26,7 @@ export default function CV() {
           <ul className="cv-list">
             {experience.map((item) => (
               <li key={item.id}>
-                <img src={item.logo} alt={`${item.company} logo`} />
+                <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={`${item.institution} logo`} />
                 <div>
                   <strong>{item.company}</strong>
                   <p>{item.description}</p>
@@ -42,7 +42,7 @@ export default function CV() {
           <ul className="skills">
             {skills.map((skill) => (
               <li key={skill.name}>
-                <img src={skill.logo} alt={skill.name} />
+                <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={`${item.institution} logo`} />
                 <span>{skill.name}</span>
               </li>
             ))}
