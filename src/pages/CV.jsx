@@ -42,7 +42,7 @@ export default function CV() {
           <ul className="skills">
             {skills.map((skill) => (
               <li key={skill.name}>
-                <img src={`${import.meta.env.BASE_URL}${item.logo}`} alt={`${item.institution} logo`} />
+                <img src={`${import.meta.env.BASE_URL}${skill.logo}`} alt={skill.name} />
                 <span>{skill.name}</span>
               </li>
             ))}

@@ -19,8 +19,8 @@ export default function About() {
 
         <img
           id="profilePic"
-          src="images/profilePicture.jpg"
-          alt="Erik Bäckdahl working"
+          src={`${import.meta.env.BASE_URL}images/profilePicture.jpg`}
+          alt="Portrait of Erik Bäckdahl"
         />
       </section>
     </main>

@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         <img
           id="profilePic"
-          src="images/profilePicture.jpg"
+          src={`${import.meta.env.BASE_URL}images/profilePicture.jpg`}
           alt="Portrait of Erik Bäckdahl"
         />
       </section>
