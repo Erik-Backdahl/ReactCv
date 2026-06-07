@@ -1,0 +1,42 @@
+{
+  "education": [
+    {
+      "id": "chas",
+      "institution": "Chas Academy",
+      "program": ".NET Fullstack",
+      "period": "2025 September - Current",
+      "logo": "images/chas_logo.png"
+    },
+
+    {
+      "id": "lbs",
+      "institution": "LBS Creative Gymnasium",
+      "program": "Game Graphics",
+      "period": "2020 August - 2023 June",
+      "logo": "images/lbs_logo.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": "citymail",
+      "company": "CityMail",
+      "description": "6 months between 2024 - 2025",
+      "logo": "images/citymail_logo.png"
+    }
+  ],
+  "skills": [
+    { "name": "C#", "logo": "images/Csharp_logo.png" },
+    { "name": "SSMS / SQL Server", "logo": "images/ssms_21.png" },
+    { "name": "SQLite", "logo": "images/sqlite_logo.png" },
+    { "name": "EF Core", "logo": "images/ef-core-featured.png" },
+    { "name": "MVVM", "logo": "images/mvvm_logo.png" },
+    { "name": "Git", "logo": "images/git_logo.png" },
+    { "name": "GitHub", "logo": "images/github_logo.png" },
+    { "name": "GitLab", "logo": "images/gitlab_logo.png" },
+    { "name": "HTML", "logo": "images/html5_logo.png" },
+    { "name": "CSS", "logo": "images/css_logo.png" },
+    { "name": "VS Code", "logo": "images/vsc_logo.png" }
+  ],
+  "languages": ["Swedish", 
+  "English"]
+}

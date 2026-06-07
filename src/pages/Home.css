@@ -1,0 +1,50 @@
+.hero {
+  padding: 40px 0 20px;
+}
+
+#logo {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.two-columns div {
+  flex: 1;
+}
+
+#profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 6px solid white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+#profilePic:hover {
+  transform: scale(1.03);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .two-columns {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #profilePic {
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+  }
+}

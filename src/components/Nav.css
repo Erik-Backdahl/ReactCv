@@ -1,0 +1,51 @@
+#secret {
+  opacity: 0;
+  cursor: default;
+  user-select: none;
+}
+
+header {
+  background-color: #303030;
+}
+
+.main-nav {
+  padding: 15px 0;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li {
+  margin: 0 25px;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+  color: #aaa5a5;
+}
+
+.main-nav ul li a.active {
+  border-bottom: 3px solid white;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .main-nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .main-nav ul li {
+    margin: 5px 10px;
+  }
+}

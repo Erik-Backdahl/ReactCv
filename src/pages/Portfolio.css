@@ -1,0 +1,115 @@
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 60px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.portfolio-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.title a {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.content p {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+.info-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 5px;
+  border: 2px solid rgb(49, 49, 49);
+  background-color: white;
+}
+
+.info-box img {
+  height: 2rem;
+  display: block;
+}
+
+#github-section {
+  margin-top: 5rem;
+}
+
+.loading-msg {
+  font-style: italic;
+  color: #555;
+}
+
+.error-msg {
+  color: #c0392b;
+}
+
+.github-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.github-item {
+  background: white;
+  padding: 20px 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.github-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.repo-link {
+  color: #1a6eb5;
+  text-decoration: underline;
+}
+
+.repo-link:hover {
+  color: #0f4a80;
+}
+
+.github-item p {
+  margin: 0 0 8px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.repo-lang {
+  display: inline-block;
+  background: #303030;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .portfolio-item {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .info-box {
+    justify-content: center;
+  }
+}
