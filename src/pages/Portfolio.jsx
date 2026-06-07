@@ -45,7 +45,7 @@ export default function Portfolio() {
                   {project.stack.map((tech) => (
                     <img
                       key={tech.name}
-                      src={tech.logo}
+                      src={`${import.meta.env.BASE_URL}${tech.logo}`}
                       alt={tech.name}
                       title={tech.name}
                     />
